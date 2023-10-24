@@ -20,5 +20,10 @@ double degreesToRadians(double degrees) {
     scanf("%lf", &latitude2);
     printf("Longitude: ");
     scanf("%lf", &longitude2)
+    // Convert degrees to radians
+    latitude1 = degreesToRadians(latitude1);
+    longitude1 = degreesToRadians(longitude1);
+    latitude2 = degreesToRadians(latitude2);
+    longitude2 = degreesToRadians(longitude2);
     
 
