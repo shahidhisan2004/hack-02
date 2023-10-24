@@ -15,4 +15,10 @@ double degreesToRadians(double degrees) {
     scanf("%lf", &latitude1);
     printf("Longitude: ");
     scanf("%lf", &longitude1);
+      printf("Enter the latitude and longitude of the destination (in degrees):\n");
+    printf("Latitude: ");
+    scanf("%lf", &latitude2);
+    printf("Longitude: ");
+    scanf("%lf", &longitude2)
     
+
